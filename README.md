@@ -1,5 +1,9 @@
 # MetaCentraLand_2024
 
+A 2D platform where users can buy, sell or update virtual plots of land.
+MetaCentraLand is a client-server architecture platform
+developed in React & Node.js (Express) and connected to MongoDB.
+
 Run:
 1. \react-app> npm install
 2. \server> npm  install
