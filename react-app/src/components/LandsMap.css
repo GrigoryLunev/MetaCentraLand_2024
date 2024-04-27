@@ -1,0 +1,162 @@
+#root{
+	font-family: sans-serif;
+}
+.user-data{
+	display: flex;
+	margin: 20px 0 10px 0;
+	color: #465afb;
+	font-size: 20px;
+	line-height: 32px;
+}
+
+.user-data button{
+	margin: 0px 50px;
+}
+.meta-centerland{
+	display: flex;
+}
+.login-form,
+.signup-form{
+	display: inline-block;
+}
+
+.LandBoard{
+	width:min-content;
+}
+.LandBoard tbody{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.LandBoard .row{
+	display: flex;
+}
+
+.LandBoard .cell{
+	width: 8px;
+	height: 8px;
+	border: 1px solid #c1c1c1;
+}
+
+.LandBoard .cell.road {
+	background-color: grey;
+}
+
+.LandBoard .cell.park {
+	background-color: green;
+}
+.cell.private {
+	cursor: pointer;
+}
+
+.cell.large-price,
+.map-legend .large-price {
+	background-color: #fc8f8f;
+}
+
+.cell.medium-price,
+.map-legend .medium-price{
+	background-color: #fbba8f;
+}
+.cell.small-price,
+.map-legend .small-price{
+	background-color: #8af5f9;
+}
+.cell[data-owner=true],
+.map-legend .owner{
+	background-color: #e580ff;
+}
+
+.map-legend{
+	margin-right: 10px;
+	margin-left: 20px;
+	min-width: 175px;
+}
+
+.map-legend>div {
+	padding: 10px;
+	text-align: center;
+}
+#popup-root .close{
+	cursor: pointer;
+}
+
+.popup-wrap{
+	text-align: center;
+	font-size: 20px;
+	padding: 10px;
+}
+
+form{
+	border: 2px solid #6d6d6d;
+	border-radius: 7px;
+	padding: 20px;
+}
+
+.update-content{
+	text-align: left;
+}
+
+button,
+.numble-game>a{
+	display: block;
+	text-align: center;
+	margin: 20px auto 5px auto;
+	box-shadow: 0px 1px 0px 0px #f0f7fa;
+	background:linear-gradient(to bottom, #33bdef 5%, #019ad2 100%);
+	background-color:#33bdef;
+	border-radius:6px;
+	border:1px solid #057fd0;
+	cursor:pointer;
+	color:#ffffff;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px -1px 0px #5b6178;
+}
+.popup-field{
+	margin: 10px auto;
+}
+
+form p.title {
+	font-size: 24px;
+	color: #0737b3;
+}
+
+form input.form-control {
+	display: block;
+	margin: 10px 0;
+}
+form input.form-control[type="number"]{
+	padding: 5px;
+	width: 42px;
+}
+
+input[type=text],
+input[type=password] {
+	padding: 10px;
+	box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+	border-radius:5px;
+}
+
+.login-error, .price-error{
+	color:red;
+}
+.numble-game{
+	margin-top: 25px;
+}
+.popup-modal>p{
+	font-size: 16px;
+	text-align: center;
+}
+.popup-modal .guest-title{
+	font-size: 22px;
+}
+.price-error{
+	font-size: 16px;
+}
+.p-link{
+	cursor: pointer;
+	text-decoration: underline;
+}
